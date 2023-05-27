@@ -1,9 +1,16 @@
 <img src="src/main/resources/assets/sodium/icon.png" width="128">
+<img src="[src/main/resources/assets/sodium/icon.png](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Vulkan_API_logo.svg/512px-Vulkan_API_logo.svg.png?20161220132648)" width="128">
 
-# Sodium (for Fabric)
+# Sodium with VulkanMod support (for Fabric)
 ![GitHub license](https://img.shields.io/github/license/CaffeineMC/sodium-fabric.svg)
 ![GitHub issues](https://img.shields.io/github/issues/CaffeineMC/sodium-fabric.svg)
 ![GitHub tag](https://img.shields.io/github/tag/CaffeineMC/sodium-fabric.svg)
+
+This fork works by removing/editing classes that intefere with VulkanMod
+This fork will be updated as fast as possible after the mainstream Sodium
+
+
+## NOTICE: VULKANMOD IS NOT EMBEDDED, YOU NEED TO DOWNLOAD IT FROM https://modrinth.com/mod/VulkanMod
 
 Sodium is a free and open-source optimization mod for the Minecraft client that improves frame rates, reduces
 micro-stutter, and fixes graphical issues in Minecraft. 
@@ -22,35 +29,10 @@ and other issues with some mods.
 You will need Fabric Loader 0.10.x or newer installed in your game in order to load Sodium. If you haven't installed
 Fabric mods before, you can find a variety of community guides for doing so [here](https://fabricmc.net/wiki/install).
 
-#### Stable releases
-
-![GitHub release](https://img.shields.io/github/release/CaffeineMC/sodium-fabric.svg)
-
-The latest releases of Sodium are published to our [Modrinth](https://modrinth.com/mod/sodium) and
-[GitHub release](https://github.com/CaffeineMC/sodium-fabric/releases) pages. Releases are considered by our team to be
-**suitable for general use**, but they are not guaranteed to be free of bugs and other issues.
-
-Usually, releases will be made available on GitHub slightly sooner than other locations.
-
-#### Bleeding-edge builds (unstable)
-
-[![GitHub build status](https://img.shields.io/github/actions/workflow/status/CaffeineMC/sodium-fabric/gradle.yml)](https://github.com/CaffeineMC/sodium-fabric/actions/workflows/gradle.yml)
-
-If you are a player who is looking to get your hands on the latest **bleeding-edge changes for testing**, consider
-taking a look at the automated builds produced through our [GitHub Actions workflow](https://github.com/CaffeineMC/sodium-fabric/actions/workflows/gradle.yml?query=event%3Apush).
-This workflow automatically runs every time a change is pushed to the repository, and as such, the builds it produces
-will generally reflect the latest snapshot of development.
-
-Bleeding edge builds will often include unfinished code that hasn't been extensively tested. That code may introduce
-incomplete features, bugs, crashes, and all other kinds of weird issues. You **should not use these bleeding edge builds**
-unless you know what you are doing and are comfortable with software debugging. If you report issues using these builds,
-we will expect that this is the case. Caveat emptor.
-
----
 
 ### Reporting Issues
 
-You can report bugs and crashes by opening an issue on our [issue tracker](https://github.com/CaffeineMC/sodium-fabric/issues).
+You can report bugs and crashes by opening an issue on the [Sodium-Vulkan issue tracker](https://github.com/Skypixel-ECAS/Sodium-Vulkan/issues).
 Before opening a new issue, use the search tool to make sure that your issue has not already been reported and ensure
 that you have completely filled out the issue template. Issues that are duplicates or do not contain the necessary
 information to triage and debug may be closed. 
@@ -58,17 +40,6 @@ information to triage and debug may be closed.
 Please note that while the issue tracker is open to feature requests, development is primarily focused on
 improving hardware compatibility, performance, and finishing any unimplemented features necessary for parity with
 the vanilla renderer.
-
-### Community
-[![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA?logo=discord&logoColor=white)](https://jellysquid.me/discord)
-
-We have an [official Discord community](https://jellysquid.me/discord) for all of our projects. By joining, you can:
-- Get installation help and technical support with all of our mods 
-- Be notified of the latest developments as they happen
-- Get involved and collaborate with the rest of our team
-- ... and just hang out with the rest of our community.
-
----
 
 ### Building from sources
 
