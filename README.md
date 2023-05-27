@@ -1,13 +1,16 @@
 <img src="src/main/resources/assets/sodium/icon.png" width="128">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Vulkan_API_logo.svg/512px-Vulkan_API_logo.svg.png?20161220132648" width="128">
 
+### THIS PROJECT IS NOT AFFILIATED WITH SODIUM OR VULKANMOD!
+
 # Sodium with VulkanMod support (for Fabric)
 ![GitHub license](https://img.shields.io/github/license/CaffeineMC/sodium-fabric.svg)
-![GitHub issues](https://img.shields.io/github/issues/CaffeineMC/sodium-fabric.svg)
-![GitHub tag](https://img.shields.io/github/tag/CaffeineMC/sodium-fabric.svg)
+![GitHub issues](https://img.shields.io/github/issues/Skypixel-ECAS/Sodium-Vulkan.svg)
+![GitHub tag](https://img.shields.io/github/tag/Skypixel-ECAS/Sodium-Vulkan.svg)
 
 This fork works by removing/editing classes that intefere with VulkanMod
 This fork will be updated as fast as possible after the mainstream Sodium
+
 
 
 ## NOTICE: VULKANMOD IS NOT EMBEDDED, YOU NEED TO DOWNLOAD IT FROM https://modrinth.com/mod/VulkanMod
