@@ -1,5 +1,5 @@
 <img src="src/main/resources/assets/sodium/icon.png" width="128">
-<img src="[src/main/resources/assets/sodium/icon.png](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Vulkan_API_logo.svg/512px-Vulkan_API_logo.svg.png?20161220132648)" width="128">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Vulkan_API_logo.svg/512px-Vulkan_API_logo.svg.png?20161220132648" width="128">
 
 # Sodium with VulkanMod support (for Fabric)
 ![GitHub license](https://img.shields.io/github/license/CaffeineMC/sodium-fabric.svg)
